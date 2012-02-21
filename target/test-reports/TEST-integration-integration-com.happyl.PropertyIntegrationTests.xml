@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.PropertyIntegrationTests" tests="1" time="0.034" timestamp="2012-02-21T21:05:13">
+  <properties />
+  <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.031" />
+  <system-out><![CDATA[--Output from testSave--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSave--
+]]></system-err>
+</testsuite>

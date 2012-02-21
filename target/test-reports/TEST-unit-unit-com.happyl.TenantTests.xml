@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.TenantTests" tests="1" time="0.07" timestamp="2012-02-21T20:46:30">
+<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.TenantTests" tests="1" time="0.061" timestamp="2012-02-21T21:05:04">
   <properties />
-  <testcase classname="com.happyl.TenantTests" name="testSomething" time="0.066" />
+  <testcase classname="com.happyl.TenantTests" name="testSomething" time="0.059" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--
