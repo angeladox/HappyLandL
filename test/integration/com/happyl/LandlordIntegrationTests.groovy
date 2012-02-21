@@ -14,11 +14,5 @@ class LandlordIntegrationTests extends GrailsUnitTestCase{
     }
 }
 
-/*g userId
-    String firstName
-    String lastName
-    String email
-    String password
-    Date dateCreated
-    String phone*/
+
 
