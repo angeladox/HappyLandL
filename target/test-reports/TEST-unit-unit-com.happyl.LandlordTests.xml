@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.LandlordTests" tests="1" time="0.332" timestamp="2012-02-21T20:08:01">
+  <properties />
+  <testcase classname="com.happyl.LandlordTests" name="testSomething" time="0.327" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>
