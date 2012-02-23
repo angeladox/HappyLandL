@@ -2,7 +2,7 @@
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>
-                    Test - TenantIntegrationTests</title>
+                    Test - UnitTests</title>
 <link rel="shortcut icon" href="http://grails.org/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" title="Style" href="../../stylesheet.css">
 </head>
@@ -12,7 +12,7 @@
 <a title="Home" href="../../index.html">
 <div class="grailslogo"></div>
 </a>
-<h1>TenantIntegrationTests</h1>
+<h1>UnitTests</h1>
 <h2>Package: com.happyl</h2>
 </div>
 <div class="grid_2">
@@ -35,34 +35,45 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite success">
+<div class="testsuite failure">
 <div class="header">
-<h2>TenantIntegrationTests</h2>
+<h2>UnitTests</h2>
 <h3>
                         A single test executed
                     
-                        without a single error or failure!
+                        with
+                        one failure
+                        .
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="testSave">
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">testSave</b>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
 </p>
-<p class="summary">Executed in 0.065 seconds.</p>
+<p class="summary">Executed in 0.077 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo"></div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">java.lang.AssertionError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
+	at com.happyl.UnitTests.testSomething(UnitTests.groovy:15)
+</pre>
+</div>
+</div>
 <div class="clear"></div>
 </div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from testSave--
+<pre class="stdout">--Output from testSomething--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from testSave--
+<pre class="syserr">--Output from testSomething--
 </pre>
 </div>
 </div>

@@ -25,15 +25,3 @@ class TenantIntegrationTests extends GrailsUnitTestCase{
         assertEquals ('kurlychek', foundTenant.lastName)
     }
 }
-/*  String firstName
-    String lastName
-    String email
-    String phone
-    int creditScore
-    // tenant last address info
-    String prevAddress
-    String prevLandlord
-    String prevLandlordPhone
-    
-    String comments
-    Date dateCreated*/
