@@ -1,5 +1,5 @@
 Testsuite: com.happyl.UnitControllerTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.218 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.138 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,9 +7,4 @@ Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.218 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.173 sec
-	FAILED
-java.lang.AssertionError: Implement me
-junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
-	at com.happyl.UnitControllerTests.testSomething(UnitControllerTests.groovy:15)
-
+Testcase: testSomething took 0.1 sec

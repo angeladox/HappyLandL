@@ -1,5 +1,5 @@
 Testsuite: com.happyl.TenantIntegrationTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.067 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.094 sec
 ------------- Standard Output ---------------
 --Output from testSave--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.067 sec
 --Output from testSave--
 ------------- ---------------- ---------------
 
-Testcase: testSave took 0.065 sec
+Testcase: testSave took 0.092 sec

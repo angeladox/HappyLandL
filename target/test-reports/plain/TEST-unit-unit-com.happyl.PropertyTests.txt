@@ -1,5 +1,5 @@
 Testsuite: com.happyl.PropertyTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.121 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.145 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.121 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.073 sec
+Testcase: testSomething took 0.078 sec

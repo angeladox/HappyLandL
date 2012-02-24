@@ -1,7 +1,7 @@
 package com.happyl
 
 
-
+import grails.test.*
 import grails.test.mixin.*
 import org.junit.*
 
@@ -10,8 +10,9 @@ import org.junit.*
  */
 @TestFor(Landlord)
 class LandlordTests {
-
-    void testSomething() {
-       //+fail "Implement me"
+    
+    void testConstraints() {
+       
+        //testUser = new User(userId: "glen", password: "passwd") assertTrue testUser.validate()
     }
 }

@@ -1,5 +1,5 @@
 Testsuite: com.happyl.PropertyIntegrationTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.073 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.08 sec
 ------------- Standard Output ---------------
 --Output from testSave--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.073 sec
 --Output from testSave--
 ------------- ---------------- ---------------
 
-Testcase: testSave took 0.072 sec
+Testcase: testSave took 0.069 sec

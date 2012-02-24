@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="0" name="LandlordIntegrationTests" package="com.happyl" tests="1" time="0.526" timestamp="2012-02-23T23:23:28">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="0" name="LandlordIntegrationTests" package="com.happyl" tests="1" time="0.469" timestamp="2012-02-24T00:12:43">
       <properties />
 
-      <testcase classname="com.happyl.LandlordIntegrationTests" name="testSave" time="0.524" />
+      <testcase classname="com.happyl.LandlordIntegrationTests" name="testSave" time="0.467" />
 
       <system-out><![CDATA[--Output from testSave--
 ]]></system-out>
@@ -12,10 +12,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="1" name="PropertyIntegrationTests" package="com.happyl" tests="1" time="0.073" timestamp="2012-02-23T23:23:28">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="1" name="PropertyIntegrationTests" package="com.happyl" tests="1" time="0.08" timestamp="2012-02-24T00:12:44">
       <properties />
 
-      <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.072" />
+      <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.069" />
 
       <system-out><![CDATA[--Output from testSave--
 ]]></system-out>
@@ -24,10 +24,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="2" name="TenantIntegrationTests" package="com.happyl" tests="1" time="0.067" timestamp="2012-02-23T23:23:28">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="2" name="TenantIntegrationTests" package="com.happyl" tests="1" time="0.094" timestamp="2012-02-24T00:12:44">
       <properties />
 
-      <testcase classname="com.happyl.TenantIntegrationTests" name="testSave" time="0.065" />
+      <testcase classname="com.happyl.TenantIntegrationTests" name="testSave" time="0.092" />
 
       <system-out><![CDATA[--Output from testSave--
 ]]></system-out>
@@ -36,10 +36,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="3" name="UnitIntegrationTests" package="com.happyl" tests="1" time="0.04" timestamp="2012-02-23T23:23:28">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="3" name="UnitIntegrationTests" package="com.happyl" tests="1" time="0.07" timestamp="2012-02-24T00:12:44">
       <properties />
 
-      <testcase classname="com.happyl.UnitIntegrationTests" name="testSave" time="0.039" />
+      <testcase classname="com.happyl.UnitIntegrationTests" name="testSave" time="0.069" />
 
       <system-out><![CDATA[--Output from testSave--
 ]]></system-out>
@@ -48,10 +48,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="4" name="LandlordControllerTests" package="com.happyl" tests="1" time="1.7" timestamp="2012-02-23T23:23:13">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="4" name="LandlordControllerTests" package="com.happyl" tests="1" time="1.778" timestamp="2012-02-24T00:12:31">
       <properties />
 
-      <testcase classname="com.happyl.LandlordControllerTests" name="testSomething" time="1.442" />
+      <testcase classname="com.happyl.LandlordControllerTests" name="testSomething" time="1.584" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -60,10 +60,34 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="5" name="LandlordTests" package="com.happyl" tests="1" time="0.644" timestamp="2012-02-23T23:23:15">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="5" name="LandlordTests" package="com.happyl" tests="1" time="0.352" timestamp="2012-02-24T00:12:33">
       <properties />
 
-      <testcase classname="com.happyl.LandlordTests" name="testSomething" time="0.588" />
+      <testcase classname="com.happyl.LandlordTests" name="testConstraints" time="0.311" />
+
+      <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="6" name="LandlordUnitTests" package="com.happyl" tests="1" time="0.858" timestamp="2012-02-24T00:12:33">
+      <properties />
+
+      <testcase classname="com.happyl.LandlordUnitTests" name="testConstraints" time="0.816" />
+
+      <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="7" name="PropertyControllerTests" package="com.happyl" tests="1" time="0.139" timestamp="2012-02-24T00:12:34">
+      <properties />
+
+      <testcase classname="com.happyl.PropertyControllerTests" name="testSomething" time="0.096" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -72,10 +96,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="6" name="PropertyControllerTests" package="com.happyl" tests="1" time="0.203" timestamp="2012-02-23T23:23:16">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="8" name="PropertyTests" package="com.happyl" tests="1" time="0.145" timestamp="2012-02-24T00:12:34">
       <properties />
 
-      <testcase classname="com.happyl.PropertyControllerTests" name="testSomething" time="0.145" />
+      <testcase classname="com.happyl.PropertyTests" name="testSomething" time="0.078" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -84,10 +108,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="7" name="PropertyTests" package="com.happyl" tests="1" time="0.121" timestamp="2012-02-23T23:23:16">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="9" name="TenantControllerTests" package="com.happyl" tests="1" time="0.181" timestamp="2012-02-24T00:12:34">
       <properties />
 
-      <testcase classname="com.happyl.PropertyTests" name="testSomething" time="0.073" />
+      <testcase classname="com.happyl.TenantControllerTests" name="testSomething" time="0.125" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -96,10 +120,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="8" name="TenantControllerTests" package="com.happyl" tests="1" time="0.139" timestamp="2012-02-23T23:23:16">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="10" name="TenantTests" package="com.happyl" tests="1" time="0.135" timestamp="2012-02-24T00:12:35">
       <properties />
 
-      <testcase classname="com.happyl.TenantControllerTests" name="testSomething" time="0.089" />
+      <testcase classname="com.happyl.TenantTests" name="testSomething" time="0.082" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -108,10 +132,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="9" name="TenantTests" package="com.happyl" tests="1" time="0.128" timestamp="2012-02-23T23:23:16">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="11" name="UnitControllerTests" package="com.happyl" tests="1" time="0.138" timestamp="2012-02-24T00:12:35">
       <properties />
 
-      <testcase classname="com.happyl.TenantTests" name="testSomething" time="0.076" />
+      <testcase classname="com.happyl.UnitControllerTests" name="testSomething" time="0.1" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -120,32 +144,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="10" name="UnitControllerTests" package="com.happyl" tests="1" time="0.218" timestamp="2012-02-23T23:23:16">
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="12" name="UnitTests" package="com.happyl" tests="1" time="0.058" timestamp="2012-02-24T00:12:35">
       <properties />
 
-      <testcase classname="com.happyl.UnitControllerTests" name="testSomething" time="0.174">
-          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
-	at com.happyl.UnitControllerTests.testSomething(UnitControllerTests.groovy:15)
-</failure>
-
-      </testcase>
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="1" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="11" name="UnitTests" package="com.happyl" tests="1" time="0.082" timestamp="2012-02-23T23:23:16">
-      <properties />
-
-      <testcase classname="com.happyl.UnitTests" name="testSomething" time="0.077">
-          <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
-	at com.happyl.UnitTests.testSomething(UnitTests.groovy:15)
-</failure>
-
-      </testcase>
+      <testcase classname="com.happyl.UnitTests" name="testSomething" time="0.054" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
