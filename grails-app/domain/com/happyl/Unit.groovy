@@ -9,6 +9,7 @@ class Unit {
     //byte[] photo
     String description
     int bedrooms
+    String status
     
     
     static constraints = {
@@ -17,6 +18,7 @@ class Unit {
         //photo(maxSize: 4096, nullable: true)
         description(maxSize:1000, blank:true)
         bedrooms(inList: [1, 2, 3, 4, 5, 6, 7, 8, 9], nullable: false, blank: false) 
+        status(inList: ["Available","Rented"])
     }
 }
 
