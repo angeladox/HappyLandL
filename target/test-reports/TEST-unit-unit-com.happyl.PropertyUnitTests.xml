@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.PropertyUnitTests" tests="1" time="0.188" timestamp="2012-02-25T17:49:05">
+  <properties />
+  <testcase classname="com.happyl.PropertyUnitTests" name="testConstraints" time="0.185" />
+  <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+  <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+</testsuite>

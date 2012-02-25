@@ -2,25 +2,28 @@ package com.happyl
 
 import static org.junit.Assert.*
 
-import grails.test.mixin.*
-import grails.test.mixin.support.*
+import grails.test.*
 import org.junit.*
 
-/**
- * See the API for {@link grails.test.mixin.support.GrailsUnitTestMixin} for usage instructions
- */
-@TestMixin(GrailsUnitTestMixin)
-class TenantUnitTests {
-
-    void setUp() {
-        // Setup logic here
-    }
-
-    void tearDown() {
-        // Tear down logic here
-    }
-
-    void testSomething() {
-        fail "Implement me"
+class TenantUnitTests extends GrailsUnitTestCase {
+    void testConstraints() {
+        def tenant = new Tenant(firstName: "Tinn", email: "tinn", phone: "207730089")
+        mockForConstraintsTests(Tenant,[tenant]) 
+        def testT = new Tenant() 
+        assertFalse testT.validate() 
+        assertEquals "nullable",
+        testT.errors["lastName"] 
+        assertEquals "nullable",
+        testT.errors["phone"]
+      
+        testT = new Tenant(firstName: "henry", lastName: "sugar", email: "henry@gmail.com",
+            phone: "2077334987") 
+        assertFalse testT.validate()      
+        assertTrue(testT.hasErrors())
+               
+        testT = new Tenant(firstName: "henry", lastName: "sugar", email: "henry@gmail.com", 
+            phone: "2077334987", creditScore: "300", prevLandlord: "harry", 
+            prevAddress: "7 seely ln", prevLandlordPhone: "9876543456", comments: "heyhey")
+        assertFalse(testT.hasErrors())
     }
 }

@@ -1,15 +1,10 @@
 Testsuite: com.happyl.TenantUnitTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.029 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.102 sec
 ------------- Standard Output ---------------
---Output from testSomething--
+--Output from testConstraints--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testSomething--
+--Output from testConstraints--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.024 sec
-	FAILED
-java.lang.AssertionError: Implement me
-junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
-	at com.happyl.TenantUnitTests.testSomething(TenantUnitTests.groovy:24)
-
+Testcase: testConstraints took 0.1 sec

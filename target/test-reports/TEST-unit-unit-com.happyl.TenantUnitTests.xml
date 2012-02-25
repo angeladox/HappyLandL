@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.TenantUnitTests" tests="1" time="0.029" timestamp="2012-02-25T17:38:25">
+<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.TenantUnitTests" tests="1" time="0.102" timestamp="2012-02-25T17:49:05">
   <properties />
-  <testcase classname="com.happyl.TenantUnitTests" name="testSomething" time="0.025">
-    <failure message="java.lang.AssertionError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: Implement me
-	at com.happyl.TenantUnitTests.testSomething(TenantUnitTests.groovy:24)
-</failure>
-  </testcase>
-  <system-out><![CDATA[--Output from testSomething--
+  <testcase classname="com.happyl.TenantUnitTests" name="testConstraints" time="0.1" />
+  <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
+  <system-err><![CDATA[--Output from testConstraints--
 ]]></system-err>
 </testsuite>
