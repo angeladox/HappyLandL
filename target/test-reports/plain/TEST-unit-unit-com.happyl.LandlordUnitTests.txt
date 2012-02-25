@@ -1,5 +1,5 @@
 Testsuite: com.happyl.LandlordUnitTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.858 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1.671 sec
 ------------- Standard Output ---------------
 --Output from testConstraints--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.858 sec
 --Output from testConstraints--
 ------------- ---------------- ---------------
 
-Testcase: testConstraints took 0.816 sec
+Testcase: testConstraints took 1.599 sec
