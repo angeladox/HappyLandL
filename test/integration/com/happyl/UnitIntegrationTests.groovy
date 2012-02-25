@@ -11,14 +11,13 @@ void testSave(){
             sqFeet: '1200',
             //byte[] photo
             description: 'a pretty sweet unit, yo',
-            bedrooms:'9'
+            bedrooms:'9',
+            status: 'Available'
         )
         
         assertNotNull unit.save()
         assertNotNull unit.unitNo
         def foundUnit = Unit.get(unit.id)
         assertEquals ('g', foundUnit.unitNo)
-    }
-   
-    
+    }  
 }
