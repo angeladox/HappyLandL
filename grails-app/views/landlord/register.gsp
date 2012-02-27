@@ -13,7 +13,6 @@
     <body>
 
         <h1>Register New Landlord</h1>
-
         <g:form action="register">
             <dl>
                 <dt>User Id</dt>

@@ -2,8 +2,8 @@ package com.happyl
 
 class Unit {
     
-    static belongsTo = [Property, Landlord]
-    
+    static belongsTo = [property: Property, landlord: Landlord]
+    static hasMany = [tenants: Tenant]
     String unitNo
     int sqFeet
     //byte[] photo
@@ -13,12 +13,15 @@ class Unit {
     
     
     static constraints = {
-        unitNo(nullable: false, blank: false, matches: '^[0-9a-zA-Z]{1,5}\$')
-        sqFeet(nullable: true, blank: true, matches: '^[0-9]{1,5}\$')
+        unitNo(blank: false, matches: '^[0-9a-zA-Z]{1,5}\$')
+        sqFeet(nullable: true, matches: '^[0-9]{1,5}\$')
         //photo(maxSize: 4096, nullable: true)
         description(maxSize:1000, blank:true)
-        bedrooms(inList: [1, 2, 3, 4, 5, 6, 7, 8, 9], nullable: false, blank: false) 
+        bedrooms(inList: [1, 2, 3, 4, 5, 6, 7, 8, 9], blank: false) 
         status(inList: ["Available","Rented"])
+    }
+    String toString(){
+        "Unit: ${unitNo} "
     }
 }
 

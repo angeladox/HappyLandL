@@ -13,7 +13,7 @@ class LandlordController {
             if (landlord.validate()) {
                 landlord.save()
                 flash.message = "Successfully Created Landlord"
-                redirect(uri: '/')
+                redirect(uri: '/property/list')
             } else {
                 flash.message = "Error Registering Landlord"
                 return [landlord: landlord]

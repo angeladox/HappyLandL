@@ -1,6 +1,6 @@
 package com.happyl
 
-import static org.junit.Assert.*
+//import static org.junit.Assert.*
 import grails.test.*
 import org.junit.*
 
@@ -15,12 +15,22 @@ class PropertyUnitTests extends GrailsUnitTestCase{
         assertEquals "nullable",
         testP.errors["state"]
       
-        testP = new Property(address: "5 sydney way", city: "portland", state: "meine", zipCode: "04102", heating: "oil") 
+        testP = new Property(
+            address: "5 sydney way", 
+            city: "portland", 
+            state: "meine", 
+            zipCode: "04102", 
+            heating: "oil") 
         assertFalse testP.validate()      
         assertTrue(testP.hasErrors())
                
-        testP = new Property(address: "5 sydney way", city: "portland", state: "Maine", zipCode: "04102", heating: "oil")
+        testP = new Property(
+            address: "5 sydney",
+            city: "Port",
+            state: "Maine",
+            zipCode: "04102",
+            heating: "oil")
         assertTrue testP.validate()
-        assertFalse(testP.hasErrors())
+        assertFalse (testP.hasErrors())
     }
 }
