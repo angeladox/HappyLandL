@@ -1,7 +1,6 @@
 package com.happyl
 
 class UnitController {
-    static scaffold = true;
-    
+    static scaffold = true;    
      def index={ redirect(action:'list') }
 }

@@ -2,7 +2,7 @@ package com.happyl
 
 class Tenant {
 
-    static belongsTo = [unit: Unit]
+  
     // current tenant info	
     String firstName
     String lastName
@@ -33,6 +33,9 @@ class Tenant {
     dateCreated()
     
     }
+    
+    //static belongsTo = [unit: Unit]
+    
     String toString(){
         "Tenant: ${firstName} (${lastName})"
     }

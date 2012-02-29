@@ -1,0 +1,9 @@
+02-28 18:19:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROPERTY" not found; SQL statement:
+alter table property drop constraint FKC4CDDDD5E771C18F [42102-147]
+02-28 18:19:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "TENANT" not found; SQL statement:
+alter table tenant drop constraint FKCBB4E8AAA6A4918F [42102-147]
+02-28 18:19:26 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "UNIT" not found; SQL statement:
+alter table unit drop constraint FK36D9849ED9B16F [42102-147]

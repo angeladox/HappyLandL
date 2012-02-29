@@ -1,16 +1,12 @@
 package com.happyl
 
 class Property {
-    static belongsTo = [landlord: Landlord]
-    static hasMany = [units:Unit, tenants:Tenant] 
-    //byte[] photo
+
     String address
     String city
     String state
     String zipCode
-    String heating 
-    
-	
+    String heating 	
 	
     static constraints = {
         address(blank: false)
@@ -24,12 +20,14 @@ class Property {
                     "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island","South Carolina", 
                     "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington",
                     "West Virginia", "Wisconsin", "Wyoming" ])
-        //photo(maxSize: 4096, nullable: true)
          zipCode( blank: false, matches: /^\d{5}/)
          heating()
-         
-       
+     
     }
+        
+    //static belongsTo = [landlord: Landlord]
+    //static hasMany = [units:Unit] 
+       
     String toString(){
         " ${address} "
     }
