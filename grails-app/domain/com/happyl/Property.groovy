@@ -25,8 +25,8 @@ class Property {
      
     }
         
-    //static belongsTo = [landlord: Landlord]
-    //static hasMany = [units:Unit] 
+    static belongsTo = [landlord: Landlord]
+    static hasMany = [units:Unit] 
        
     String toString(){
         " ${address} "

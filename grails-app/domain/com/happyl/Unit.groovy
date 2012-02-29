@@ -16,8 +16,8 @@ class Unit {
         status(inList: ["Available","Rented"])
     }
     
-    //static belongsTo = [property: Property, landlord:Landlord]
-   // static hasMany = [tenants: Tenant]
+    static belongsTo = [property: Property, landlord:Landlord]
+    static hasMany = [tenants: Tenant]
     
     String toString(){
         "Unit: ${unitNo} "

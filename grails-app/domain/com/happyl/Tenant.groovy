@@ -34,7 +34,7 @@ class Tenant {
     
     }
     
-    //static belongsTo = [unit: Unit]
+    static belongsTo = [unit: Unit]
     
     String toString(){
         "Tenant: ${firstName} (${lastName})"

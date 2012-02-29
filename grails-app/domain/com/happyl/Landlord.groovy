@@ -24,7 +24,7 @@ class Landlord {
         
     }
     
-    //static hasMany =[properties:Property]
+    static hasMany =[asset:Property]
     
     String toString(){
         "Landlord: ${firstName} ${lastName} (${id})"
