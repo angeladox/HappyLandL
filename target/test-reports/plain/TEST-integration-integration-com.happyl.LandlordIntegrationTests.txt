@@ -1,0 +1,10 @@
+Testsuite: com.happyl.LandlordIntegrationTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.425 sec
+------------- Standard Output ---------------
+--Output from testSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSave--
+------------- ---------------- ---------------
+
+Testcase: testSave took 0.424 sec

@@ -1,2 +1,104 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="0" name="LandlordIntegrationTests" package="com.happyl" tests="1" time="0.425" timestamp="2012-02-29T21:48:08">
+      <properties />
+
+      <testcase classname="com.happyl.LandlordIntegrationTests" name="testSave" time="0.424" />
+
+      <system-out><![CDATA[--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="1" name="PropertyIntegrationTests" package="com.happyl" tests="1" time="0.118" timestamp="2012-02-29T21:48:08">
+      <properties />
+
+      <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.116" />
+
+      <system-out><![CDATA[--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="2" name="TenantIntegrationTests" package="com.happyl" tests="1" time="0.106" timestamp="2012-02-29T21:48:08">
+      <properties />
+
+      <testcase classname="com.happyl.TenantIntegrationTests" name="testSave" time="0.105" />
+
+      <system-out><![CDATA[--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="3" name="UnitIntegrationTests" package="com.happyl" tests="1" time="0.076" timestamp="2012-02-29T21:48:09">
+      <properties />
+
+      <testcase classname="com.happyl.UnitIntegrationTests" name="testSave" time="0.074" />
+
+      <system-out><![CDATA[--Output from testSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="4" name="LandlordUnitTests" package="com.happyl" tests="1" time="1.627" timestamp="2012-02-29T21:47:57">
+      <properties />
+
+      <testcase classname="com.happyl.LandlordUnitTests" name="testConstraints" time="1.588" />
+
+      <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="5" name="PropertyUnitTests" package="com.happyl" tests="1" time="0.172" timestamp="2012-02-29T21:47:59">
+      <properties />
+
+      <testcase classname="com.happyl.PropertyUnitTests" name="testConstraints" time="0.169">
+          <failure message="java.lang.AssertionError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError
+	at com.happyl.PropertyUnitTests.testConstraints(PropertyUnitTests.groovy:33)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="6" name="TenantUnitTests" package="com.happyl" tests="1" time="0.037" timestamp="2012-02-29T21:47:59">
+      <properties />
+
+      <testcase classname="com.happyl.TenantUnitTests" name="testConstraints" time="0.035" />
+
+      <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="7" name="UnitUnitTests" package="com.happyl" tests="1" time="0.052" timestamp="2012-02-29T21:47:59">
+      <properties />
+
+      <testcase classname="com.happyl.UnitUnitTests" name="testConstraints" time="0.048" />
+
+      <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

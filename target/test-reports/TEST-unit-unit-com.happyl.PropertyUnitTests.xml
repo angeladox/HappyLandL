@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.PropertyUnitTests" tests="1" time="0.172" timestamp="2012-02-29T21:47:59">
+  <properties />
+  <testcase classname="com.happyl.PropertyUnitTests" name="testConstraints" time="0.169">
+    <failure message="java.lang.AssertionError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError
+	at com.happyl.PropertyUnitTests.testConstraints(PropertyUnitTests.groovy:33)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+  <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+</testsuite>

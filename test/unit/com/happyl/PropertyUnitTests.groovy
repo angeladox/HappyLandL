@@ -25,7 +25,7 @@ class PropertyUnitTests extends GrailsUnitTestCase{
         assertTrue(testP.hasErrors())
                
         testP = new Property(
-            address: "5 sydney",
+            address: "5 sydney way",
             city: "Port",
             state: "Maine",
             zipCode: "04102",

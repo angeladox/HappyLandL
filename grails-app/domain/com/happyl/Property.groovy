@@ -7,7 +7,7 @@ class Property {
     String state
     String zipCode
     String heating 	
-	
+
     static constraints = {
         address(blank: false)
         city(blank: false)
