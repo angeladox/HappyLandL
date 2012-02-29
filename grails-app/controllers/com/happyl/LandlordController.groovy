@@ -6,7 +6,7 @@ class LandlordController {
     def index= {
         redirect(action: 'register', params: params) }
  
-    
+
     def register= {
         if (params){
             def landlord = new Landlord(params)
@@ -17,9 +17,10 @@ class LandlordController {
                 sendMail {
                     to params.email /// to where it should go. we should get the email from param
                     from "Qyaqub@happLandLord.com" ///  not really cool
-                    subject "grails app mail Y!" 
-                    body " Thank you for registering with Happy Landlord! :)"
-                    render "email sent" /// not needed 
+                    subject "Welcome to happy landlord!" 
+                    html '<table> <tr> <td > Dear' + " ${params.firstName}:" + 
+                    ' </td></tr><tr><td> <br><p>Thank you for registering with Happy Landlord! :)<br><br><br> The Happy Landlord Team - QBA </p> </td></tr></table> '
+                   
                 }
                 
                 
