@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.TenantIntegrationTests" tests="1" time="0.106" timestamp="2012-02-29T21:48:08">
+<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.TenantIntegrationTests" tests="5" time="2.147" timestamp="2012-03-01T04:02:53">
   <properties />
-  <testcase classname="com.happyl.TenantIntegrationTests" name="testSave" time="0.105" />
+  <testcase classname="com.happyl.TenantIntegrationTests" name="testSave" time="0.207" />
+  <testcase classname="com.happyl.TenantIntegrationTests" name="testSaveAndUpdate" time="0.579" />
+  <testcase classname="com.happyl.TenantIntegrationTests" name="testSaveThenDelete" time="0.199" />
+  <testcase classname="com.happyl.TenantIntegrationTests" name="testIncorrectSave" time="0.447" />
+  <testcase classname="com.happyl.TenantIntegrationTests" name="testIncorrectSaveCorrected" time="0.68" />
   <system-out><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-err>
 </testsuite>

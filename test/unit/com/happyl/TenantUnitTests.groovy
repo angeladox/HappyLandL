@@ -24,6 +24,7 @@ class TenantUnitTests extends GrailsUnitTestCase {
         testT = new Tenant(firstName: "henry", lastName: "sugar", email: "henry@gmail.com", 
             phone: "2077334987", creditScore: "300", prevLandlord: "harry", 
             prevAddress: "7 seely ln", prevLandlordPhone: "9876543456", comments: "heyhey")
+      //  assertTrue testT.validate()
         assertFalse(testT.hasErrors())
     }
 }

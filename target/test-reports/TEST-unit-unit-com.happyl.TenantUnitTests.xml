@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" name="com.happyl.TenantUnitTests" tests="1" time="0.037" timestamp="2012-02-29T21:47:59">
+<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.TenantUnitTests" tests="1" time="0.087" timestamp="2012-03-01T04:02:14">
   <properties />
-  <testcase classname="com.happyl.TenantUnitTests" name="testConstraints" time="0.035" />
+  <testcase classname="com.happyl.TenantUnitTests" name="testConstraints" time="0.08" />
   <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>
   <system-err><![CDATA[--Output from testConstraints--

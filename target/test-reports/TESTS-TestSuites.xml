@@ -1,57 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="0" name="LandlordIntegrationTests" package="com.happyl" tests="1" time="0.425" timestamp="2012-02-29T21:48:08">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="0" name="LandlordIntegrationTests" package="com.happyl" tests="5" time="2.421" timestamp="2012-03-01T04:02:49">
       <properties />
 
-      <testcase classname="com.happyl.LandlordIntegrationTests" name="testSave" time="0.424" />
+      <testcase classname="com.happyl.LandlordIntegrationTests" name="testSave" time="0.627" />
+
+      <testcase classname="com.happyl.LandlordIntegrationTests" name="testSaveAndUpdate" time="0.094" />
+
+      <testcase classname="com.happyl.LandlordIntegrationTests" name="testSaveThenDelete" time="0.2" />
+
+      <testcase classname="com.happyl.LandlordIntegrationTests" name="testIncorrectSave" time="0.632" />
+
+      <testcase classname="com.happyl.LandlordIntegrationTests" name="testIncorrectSaveCorrected" time="0.851" />
 
       <system-out><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="1" name="PropertyIntegrationTests" package="com.happyl" tests="1" time="0.118" timestamp="2012-02-29T21:48:08">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="1" name="PropertyIntegrationTests" package="com.happyl" tests="5" time="1.346" timestamp="2012-03-01T04:02:52">
       <properties />
 
-      <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.116" />
+      <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.254" />
+
+      <testcase classname="com.happyl.PropertyIntegrationTests" name="testSaveAndUpdate" time="0.207" />
+
+      <testcase classname="com.happyl.PropertyIntegrationTests" name="testSaveThenDelete" time="0.1" />
+
+      <testcase classname="com.happyl.PropertyIntegrationTests" name="testIncorrectSave" time="0.285" />
+
+      <testcase classname="com.happyl.PropertyIntegrationTests" name="testIncorrectSaveCorrected" time="0.489" />
 
       <system-out><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="2" name="TenantIntegrationTests" package="com.happyl" tests="1" time="0.106" timestamp="2012-02-29T21:48:08">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="2" name="TenantIntegrationTests" package="com.happyl" tests="5" time="2.147" timestamp="2012-03-01T04:02:53">
       <properties />
 
-      <testcase classname="com.happyl.TenantIntegrationTests" name="testSave" time="0.105" />
+      <testcase classname="com.happyl.TenantIntegrationTests" name="testSave" time="0.207" />
+
+      <testcase classname="com.happyl.TenantIntegrationTests" name="testSaveAndUpdate" time="0.579" />
+
+      <testcase classname="com.happyl.TenantIntegrationTests" name="testSaveThenDelete" time="0.199" />
+
+      <testcase classname="com.happyl.TenantIntegrationTests" name="testIncorrectSave" time="0.447" />
+
+      <testcase classname="com.happyl.TenantIntegrationTests" name="testIncorrectSaveCorrected" time="0.68" />
 
       <system-out><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="3" name="UnitIntegrationTests" package="com.happyl" tests="1" time="0.076" timestamp="2012-02-29T21:48:09">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="3" name="UnitIntegrationTests" package="com.happyl" tests="5" time="1.634" timestamp="2012-03-01T04:02:56">
       <properties />
 
-      <testcase classname="com.happyl.UnitIntegrationTests" name="testSave" time="0.074" />
+      <testcase classname="com.happyl.UnitIntegrationTests" name="testSave" time="0.243" />
+
+      <testcase classname="com.happyl.UnitIntegrationTests" name="testSaveAndUpdate" time="0.075" />
+
+      <testcase classname="com.happyl.UnitIntegrationTests" name="testSaveThenDelete" time="0.105" />
+
+      <testcase classname="com.happyl.UnitIntegrationTests" name="testIncorrectSave" time="0.595" />
+
+      <testcase classname="com.happyl.UnitIntegrationTests" name="testIncorrectSaveCorrected" time="0.602" />
 
       <system-out><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testSave--
+--Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testIncorrectSave--
+--Output from testIncorrectSaveCorrected--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="4" name="LandlordUnitTests" package="com.happyl" tests="1" time="1.627" timestamp="2012-02-29T21:47:57">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="4" name="LandlordUnitTests" package="com.happyl" tests="1" time="4.322" timestamp="2012-03-01T04:02:09">
       <properties />
 
-      <testcase classname="com.happyl.LandlordUnitTests" name="testConstraints" time="1.588" />
+      <testcase classname="com.happyl.LandlordUnitTests" name="testConstraints" time="4.198" />
 
       <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>
@@ -60,15 +124,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="1" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="5" name="PropertyUnitTests" package="com.happyl" tests="1" time="0.172" timestamp="2012-02-29T21:47:59">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="5" name="PropertyUnitTests" package="com.happyl" tests="1" time="0.469" timestamp="2012-03-01T04:02:14">
       <properties />
 
-      <testcase classname="com.happyl.PropertyUnitTests" name="testConstraints" time="0.169">
-          <failure message="java.lang.AssertionError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError
-	at com.happyl.PropertyUnitTests.testConstraints(PropertyUnitTests.groovy:33)
-</failure>
-
-      </testcase>
+      <testcase classname="com.happyl.PropertyUnitTests" name="testConstraints" time="0.465" />
 
       <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>
@@ -77,10 +136,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="6" name="TenantUnitTests" package="com.happyl" tests="1" time="0.037" timestamp="2012-02-29T21:47:59">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="6" name="TenantUnitTests" package="com.happyl" tests="1" time="0.087" timestamp="2012-03-01T04:02:14">
       <properties />
 
-      <testcase classname="com.happyl.TenantUnitTests" name="testConstraints" time="0.035" />
+      <testcase classname="com.happyl.TenantUnitTests" name="testConstraints" time="0.08" />
 
       <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>
@@ -89,10 +148,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="brian-kurlychek-1.wireless.usm.maine.edu" id="7" name="UnitUnitTests" package="com.happyl" tests="1" time="0.052" timestamp="2012-02-29T21:47:59">
+  <testsuite errors="0" failures="0" hostname="MomsLaptop-PC" id="7" name="UnitUnitTests" package="com.happyl" tests="1" time="0.083" timestamp="2012-03-01T04:02:15">
       <properties />
 
-      <testcase classname="com.happyl.UnitUnitTests" name="testConstraints" time="0.048" />
+      <testcase classname="com.happyl.UnitUnitTests" name="testConstraints" time="0.076" />
 
       <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>
