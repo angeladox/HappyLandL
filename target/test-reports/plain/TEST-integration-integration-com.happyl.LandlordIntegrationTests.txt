@@ -1,5 +1,5 @@
 Testsuite: com.happyl.LandlordIntegrationTests
-Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 2.421 sec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 2.218 sec
 ------------- Standard Output ---------------
 --Output from testSave--
 --Output from testSaveAndUpdate--
@@ -15,8 +15,8 @@ Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 2.421 sec
 --Output from testIncorrectSaveCorrected--
 ------------- ---------------- ---------------
 
-Testcase: testSave took 0.627 sec
+Testcase: testSave took 0.78 sec
 Testcase: testSaveAndUpdate took 0.094 sec
-Testcase: testSaveThenDelete took 0.2 sec
-Testcase: testIncorrectSave took 0.632 sec
-Testcase: testIncorrectSaveCorrected took 0.851 sec
+Testcase: testSaveThenDelete took 0.21 sec
+Testcase: testIncorrectSave took 0.427 sec
+Testcase: testIncorrectSaveCorrected took 0.693 sec

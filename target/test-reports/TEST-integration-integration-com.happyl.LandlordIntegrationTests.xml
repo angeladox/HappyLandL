@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.LandlordIntegrationTests" tests="5" time="2.421" timestamp="2012-03-01T04:02:49">
+<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.LandlordIntegrationTests" tests="5" time="2.218" timestamp="2012-03-01T04:11:28">
   <properties />
-  <testcase classname="com.happyl.LandlordIntegrationTests" name="testSave" time="0.627" />
+  <testcase classname="com.happyl.LandlordIntegrationTests" name="testSave" time="0.78" />
   <testcase classname="com.happyl.LandlordIntegrationTests" name="testSaveAndUpdate" time="0.094" />
-  <testcase classname="com.happyl.LandlordIntegrationTests" name="testSaveThenDelete" time="0.2" />
-  <testcase classname="com.happyl.LandlordIntegrationTests" name="testIncorrectSave" time="0.632" />
-  <testcase classname="com.happyl.LandlordIntegrationTests" name="testIncorrectSaveCorrected" time="0.851" />
+  <testcase classname="com.happyl.LandlordIntegrationTests" name="testSaveThenDelete" time="0.21" />
+  <testcase classname="com.happyl.LandlordIntegrationTests" name="testIncorrectSave" time="0.427" />
+  <testcase classname="com.happyl.LandlordIntegrationTests" name="testIncorrectSaveCorrected" time="0.693" />
   <system-out><![CDATA[--Output from testSave--
 --Output from testSaveAndUpdate--
 --Output from testSaveThenDelete--

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.PropertyIntegrationTests" tests="5" time="1.346" timestamp="2012-03-01T04:02:52">
+<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.PropertyIntegrationTests" tests="5" time="1.19" timestamp="2012-03-01T04:11:30">
   <properties />
-  <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.254" />
-  <testcase classname="com.happyl.PropertyIntegrationTests" name="testSaveAndUpdate" time="0.207" />
-  <testcase classname="com.happyl.PropertyIntegrationTests" name="testSaveThenDelete" time="0.1" />
-  <testcase classname="com.happyl.PropertyIntegrationTests" name="testIncorrectSave" time="0.285" />
-  <testcase classname="com.happyl.PropertyIntegrationTests" name="testIncorrectSaveCorrected" time="0.489" />
+  <testcase classname="com.happyl.PropertyIntegrationTests" name="testSave" time="0.281" />
+  <testcase classname="com.happyl.PropertyIntegrationTests" name="testSaveAndUpdate" time="0.167" />
+  <testcase classname="com.happyl.PropertyIntegrationTests" name="testSaveThenDelete" time="0.116" />
+  <testcase classname="com.happyl.PropertyIntegrationTests" name="testIncorrectSave" time="0.24" />
+  <testcase classname="com.happyl.PropertyIntegrationTests" name="testIncorrectSaveCorrected" time="0.375" />
   <system-out><![CDATA[--Output from testSave--
 --Output from testSaveAndUpdate--
 --Output from testSaveThenDelete--

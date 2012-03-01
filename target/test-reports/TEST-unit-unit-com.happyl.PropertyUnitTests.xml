@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.PropertyUnitTests" tests="1" time="0.469" timestamp="2012-03-01T04:02:14">
+<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.PropertyUnitTests" tests="1" time="0.377" timestamp="2012-03-01T04:11:02">
   <properties />
-  <testcase classname="com.happyl.PropertyUnitTests" name="testConstraints" time="0.465" />
+  <testcase classname="com.happyl.PropertyUnitTests" name="testConstraints" time="0.373" />
   <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>
   <system-err><![CDATA[--Output from testConstraints--

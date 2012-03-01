@@ -1,5 +1,5 @@
 Testsuite: com.happyl.PropertyIntegrationTests
-Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.346 sec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.19 sec
 ------------- Standard Output ---------------
 --Output from testSave--
 --Output from testSaveAndUpdate--
@@ -15,8 +15,8 @@ Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.346 sec
 --Output from testIncorrectSaveCorrected--
 ------------- ---------------- ---------------
 
-Testcase: testSave took 0.254 sec
-Testcase: testSaveAndUpdate took 0.207 sec
-Testcase: testSaveThenDelete took 0.1 sec
-Testcase: testIncorrectSave took 0.285 sec
-Testcase: testIncorrectSaveCorrected took 0.489 sec
+Testcase: testSave took 0.281 sec
+Testcase: testSaveAndUpdate took 0.167 sec
+Testcase: testSaveThenDelete took 0.116 sec
+Testcase: testIncorrectSave took 0.241 sec
+Testcase: testIncorrectSaveCorrected took 0.375 sec

@@ -1,5 +1,5 @@
 Testsuite: com.happyl.UnitIntegrationTests
-Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.634 sec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.126 sec
 ------------- Standard Output ---------------
 --Output from testSave--
 --Output from testSaveAndUpdate--
@@ -15,8 +15,8 @@ Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.634 sec
 --Output from testIncorrectSaveCorrected--
 ------------- ---------------- ---------------
 
-Testcase: testSave took 0.243 sec
-Testcase: testSaveAndUpdate took 0.075 sec
-Testcase: testSaveThenDelete took 0.105 sec
-Testcase: testIncorrectSave took 0.595 sec
-Testcase: testIncorrectSaveCorrected took 0.602 sec
+Testcase: testSave took 0.089 sec
+Testcase: testSaveAndUpdate took 0.083 sec
+Testcase: testSaveThenDelete took 0.103 sec
+Testcase: testIncorrectSave took 0.23 sec
+Testcase: testIncorrectSaveCorrected took 0.603 sec
