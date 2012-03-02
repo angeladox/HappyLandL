@@ -19,7 +19,7 @@ class LandlordController {
                     from "Qyaqub@happLandLord.com" ///  not really cool
                     subject "Welcome to happy landlord!" 
                     html '<table> <tr> <td > Dear' + " ${params.firstName}:" + 
-                    ' </td></tr><tr><td> <br><p>Thank you for registering with Happy Landlord! :)<br><br><br> The Happy Landlord Team - QBA </p> </td></tr></table> '
+                    ' </td></tr><tr><td> <br><p>Thank you for registering with Happy Landlord! :)<br><br><br> The Happy Landlord Team - ABQ - </p> </td></tr></table> '
                    
                 }
                 
