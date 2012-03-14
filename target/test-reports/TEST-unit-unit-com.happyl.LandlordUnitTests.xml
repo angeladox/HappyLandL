@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MomsLaptop-PC" name="com.happyl.LandlordUnitTests" tests="1" time="4.063" timestamp="2012-03-01T04:10:58">
-  <properties />
-  <testcase classname="com.happyl.LandlordUnitTests" name="testConstraints" time="3.997" />
-  <system-out><![CDATA[--Output from testConstraints--
-]]></system-out>
-  <system-err><![CDATA[--Output from testConstraints--
-]]></system-err>
-</testsuite>
