@@ -39,7 +39,22 @@
 			#page-body {
 				margin: 2em 1em 1.25em 18em;
 			}
-
+                        #conLinks {
+                                margin-top: 1em;
+                                background-color: #eee;
+				border: .2em solid #fff;
+				
+				padding: 1em;
+				width: 20em;
+                                -moz-box-shadow: 0px 0px 1.25em #ccc;
+				-webkit-box-shadow: 0px 0px 1.25em #ccc;
+				box-shadow: 0px 0px 1.25em #ccc;
+				-moz-border-radius: 0.6em;
+				-webkit-border-radius: 0.6em;
+				border-radius: 0.6em;
+				
+				
+                        }
 			h2 {
 				margin-top: 1em;
 				margin-bottom: 0.3em;
@@ -83,7 +98,24 @@
                       
 			<h1>Welcome to HappyLandlord</h1>
 			<p>This is the home of HappyLandlord - YAY!</p>
+                        <div id="conLinks" align="left">
+                          
+                           
+
+                              
+                                <g:link controller="property" action="list">View a Property        </g:link>
+                              &nbsp &nbsp 
+                              
+                                <g:link controller="unit" action="list">View a Unit             </g:link>
+                              &nbsp &nbsp 
+                              
+                                <g:link controller="tenant" action="list">View a Tenant</g:link>
+                              
                          
+                          
+                           
+                          
+                        </div>
 		</div>
                       
                       
