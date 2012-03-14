@@ -4,7 +4,7 @@ class LandlordController {
     def scaffold = true
     
     def index= {
-        redirect(uri: '/landlord/register', params:params) }
+         }
     
     
     

@@ -4,13 +4,13 @@
 		<meta name="layout" content="main"/>
 		<title>Welcome to Grails</title>
 		<style type="text/css" media="screen">
-			#login {
+			#status {
 				background-color: #eee;
 				border: .2em solid #fff;
 				margin: 2em 2em 1em;
 				padding: 1em;
 				width: 12em;
-				float: right;
+				float: left;
 				-moz-box-shadow: 0px 0px 1.25em #ccc;
 				-webkit-box-shadow: 0px 0px 1.25em #ccc;
 				box-shadow: 0px 0px 1.25em #ccc;
@@ -19,18 +19,18 @@
 				border-radius: 0.6em;
 			}
 
-			.ie6 #login {
+			.ie6 #status {
 				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
 			}
 
-			#login ul {
+			#status ul {
 				font-size: 0.9em;
 				list-style-type: none;
 				margin-bottom: 0.6em;
 				padding: 0;
 			}
 
-			#login h1 {
+			#status h1 {
 				text-transform: uppercase;
 				font-size: 1.1em;
 				margin: 0 0 0.3em;
@@ -76,14 +76,21 @@
 	</head>
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-                <div id="login" role="complementary"> <h1>login div</h1>  <g:link controller="landlord" action="register">Register</g:link></div>
-                  
-                <div id="page-body" role="main">
+		
+		<div id="page-body" role="main">
                       
                       
 			<h1>Welcome to HappyLandlord</h1>
 			<p>This is the home of HappyLandlord - YAY!</p>
-                         
+
+			<div id="controller-list" role="navigation">
+				<h2>Available Controllers:</h2>
+				<ul>
+					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
+						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
+					</g:each>
+				</ul>
+			</div>
 		</div>
                       
                       
