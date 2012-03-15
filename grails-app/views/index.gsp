@@ -4,6 +4,37 @@
 		<meta name="layout" content="main"/>
 		<title>Welcome to Grails</title>
 		<style type="text/css" media="screen">
+                	#register {
+				background-color: #ffff00;
+				border: .2em solid #00fff;
+				margin: 2em 2em 1em;
+				padding: 1em;
+				width: 12em;
+				float: right;
+				-moz-box-shadow: 0px 0px 1.25em #ccc;
+				-webkit-box-shadow: 0px 0px 1.25em #ccc;
+				box-shadow: 0px 0px 1.25em #ccc;
+				-moz-border-radius: 0.6em;
+				-webkit-border-radius: 0.6em;
+				border-radius: 0.6em;
+			}
+
+			.ie6 #register {
+				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
+			}
+
+			#register ul {
+				font-size: 0.9em;
+				list-style-type: none;
+				margin-bottom: 0.6em;
+				padding: 0;
+			}
+
+			#register h1 {
+				text-transform: uppercase;
+				font-size: 1.1em;
+				margin: 0 0 0.3em;
+			}
 			#login {
 				background-color: #eee;
 				border: .2em solid #fff;
@@ -23,7 +54,16 @@
 				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
 			}
 
+                        #login p {
+                                font-style:bold;
+				font-size: 0.9em;
+				list-style-type: none;
+				margin-bottom: 0.6em;
+				padding: 0;
+			}
+                        
 			#login ul {
+                                font-style: bold;
 				font-size: 0.9em;
 				list-style-type: none;
 				margin-bottom: 0.6em;
@@ -90,31 +130,38 @@
 		</style>
 	</head>
 	<body>
-		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-                <div id="login" role="complementary"> <h1>login div</h1>  <g:link controller="landlord" action="register">Register</g:link></div>
-                  
+		<a href="#page-body" class="skip">
+                  <g:message code="default.link.skip.label" default="Skip to content&hellip;"/>
+                </a>
+                
+                 <div id="login" role="complementary" align="left">  
+                   <g:render template="/landlord/sidebar"/>   
+                   <p><br> New to HappyLandlord? Register here!<br></p>
+                   <h1><g:link controller ="landlord" action= "register">Register</g:link></h1>
+                 </div>
+                
+          
                 <div id="page-body" role="main">
-                      
                       
 			<h1>Welcome to HappyLandlord</h1>
 			<p>This is the home of HappyLandlord - YAY!</p>
                         <div id="conLinks" align="left">
-                          
-                           
+                              
+                          <div id="viewProp" role="complementary">
+                                <g:link controller="property" action="list">View a Property       
+                                </g:link>
+                              &nbsp &nbsp </div>
+                              
+                              <div id="viewUnit" role="complementary">
+                                <g:link controller="unit" action="list">View a Unit          
+                                </g:link>
+                              &nbsp &nbsp                              </div>
 
                               
-                                <g:link controller="property" action="list">View a Property        </g:link>
-                              &nbsp &nbsp 
-                              
-                                <g:link controller="unit" action="list">View a Unit             </g:link>
-                              &nbsp &nbsp 
-                              
+                              <div id="viewTenant" role="complementary">
                                 <g:link controller="tenant" action="list">View a Tenant</g:link>
-                              
+                                                              &nbsp &nbsp </div>
                          
-                          
-                           
-                          
                         </div>
 		</div>
                       

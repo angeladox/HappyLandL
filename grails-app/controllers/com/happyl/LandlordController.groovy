@@ -5,9 +5,7 @@ class LandlordController {
     
     def index= {
          }
-    
-    
-    
+   
     def register= {
         if (!params.register) return
         
@@ -38,6 +36,13 @@ class LandlordController {
         }else{
             [landlord: landlord]
         }  
+    }
+    
+    def login = {
+       // def landlord = Landlord.findByUserIdAndPassword(params.userId, params.password)
+       // if (landlord) {
+        //    redirect(uri: '/property/list')
+       // }
     }
 }
 
