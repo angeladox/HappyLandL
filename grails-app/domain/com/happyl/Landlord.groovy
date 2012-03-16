@@ -29,7 +29,5 @@ class Landlord {
     String toString(){
         "Landlord: ${firstName} ${lastName} (${id})"
     }
-   
-    
     
 }
