@@ -4,6 +4,8 @@ class LandlordController {
     def scaffold = true
     
     def index= {
+      
+        
     }
    
     def register= {
@@ -26,7 +28,7 @@ class LandlordController {
                     
                 }
                 
-                redirect(uri: '/') 
+                redirect (action: authenticate, params:params) 
             }else{
                 flash.message = "Error Registering User"
                 [ landlord: landlord ] 
@@ -37,13 +39,18 @@ class LandlordController {
             [landlord: landlord]
         }  
     }
+    
+    def aboutus = {
+       
+    }
+    
     def login = {}
   
     def authenticate = {
         def landlord = Landlord.findByUserIdAndPassword(params.userId, params.password)
         if(landlord){
             session.landlord = landlord
-            flash.message = "Hello ${landlord.name}!"
+            flash.message = "Hello ${landlord.firstName}!"
             redirect(controller:"property", action:"list")      
         }else{
             flash.message = "Sorry, ${params.userId}. Please try again."
@@ -52,9 +59,9 @@ class LandlordController {
     }
   
     def logout = {
-        flash.message = "Goodbye ${session.landlord.name}"
+        flash.message = "Goodbye ${session.landlord.firstName}"
         session.landlord = null
-        redirect(controller:"property", action:"list")      
+        redirect(uri: "/")      
     }  
 }
 

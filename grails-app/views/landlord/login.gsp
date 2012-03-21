@@ -1,44 +1,44 @@
 <html>
   <head>
-    <title>Landlord Login</title>
-    <meta name="layout" content="main"/>
-    <style>
-      dd {
-        text-align: left;
-        margin-left: 80px;
-        margin-top: 5px;
-      }
-    </style>
+    <meta name="layout" content="main" />
+    <title>Login</title>         
   </head>
   <body>
+    <div class="body">
+      <h1>Login</h1>
+      <g:if test="${flash.message}">
+        <div class="message">${flash.message}</div>
+      </g:if>
+      <g:form action="authenticate" method="post" >
+        <div class="dialog">
+          <table>
+            <tbody>            
+              <tr class="prop">
+                <td class="name">
+                  <label for="userId">UserId:</label>
+                </td>
+                <td>
+                  <input type="text" id="userId" name="userId"/>
+                </td>
+              </tr> 
 
-    <h1>Landlord Login</h1>
-   <g:form action="login">
-    <dl>
-      <dt>User Id</dt>
-      <dd><g:textField name="userId" value="${landlord?.userId}"/>
-      <g:hasErrors bean="${landlord}" field="userId">
-        <g:eachError bean="${landlord}" field="userId">
-          <p style="color: red;"><g:message error="${it}"/></p>
-        </g:eachError>
-      </g:hasErrors>
-      </dd>
-
-      <dt>Password</dt>
-      <dd>
-      <g:passwordField name="password" value="${landlord?.password}"/> 
-      <g:hasErrors bean="${landlord}" field="password">
-        <g:eachError bean="${landlord}" field="password">
-          <p style="color: red;"><g:message error="${it}"/></p>
-        </g:eachError>
-      </g:hasErrors>
-      </dd>
-
-      <dt><g:submitButton name="login" value="Login"/></dt>
-    </dl>
-
-  </g:form>
-
-</body>
+              <tr class="prop">
+                <td class="name">
+                  <label for="password">Password:</label>
+                </td>
+                <td>
+                  <input type="password" id="password" name="password"/>
+                </td>
+              </tr> 
+            </tbody>
+          </table>
+        </div>
+        <div class="buttons">
+          <span class="button">
+            <input class="save" type="submit" value="Login" />
+          </span>
+        </div>
+      </g:form>
+    </div>
+  </body>
 </html>
-

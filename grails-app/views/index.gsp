@@ -72,10 +72,18 @@
 
 #login h1 {
   text-transform: uppercase;
+  text-decoration:underline;
+  font-family: "Impact";
+  color: #8A2BE2;
+  float: center;
+  font-style: bold;
   font-size: 1.1em;
   margin: 0 0 0.3em;
 }
 
+                  
+                  
+                  
 #page-body {
   margin: 2em 1em 1.25em 18em;
 }
@@ -136,18 +144,12 @@ margin-top: 0;
 
 
   
-  <div id="login" role="complementary" align="left">  
-    <g:render template="/landlord/sidebar"/>
-    <p><br> New to HappyLandlord? Register here!<br></p>
-    <h1><g:link controller ="landlord" action= "register">Register</g:link></h1>
-  </div>
-
-
-  <div id="page-body" role="main">
-
-    <h1>Welcome to HappyLandlord</h1>
-    <p>This is the home of HappyLandlord - YAY!</p>
-    <div id="conLinks" align="left">
+  <div id="login" role="complementary" align="left">
+    <g:if test="${session.landlord}">
+      <p> Welcome ${session.landlord.firstName} </p>
+       <h1><g:link controller ="landlord" action= "logout">Logout</g:link></h1>
+       
+      
 
       <div id="viewProp" role="complementary">
         <g:link controller="property" action="list">View a Property       
@@ -164,7 +166,29 @@ margin-top: 0;
         <g:link controller="tenant" action="list">View a Tenant</g:link>
         &nbsp &nbsp </div>
 
-    </div>
+    
+       
+    </g:if>
+    <g:else> 
+       <p><br>Have An Account? Login here!<br></p>
+       <h1><g:link controller ="landlord" action= "login">Login</g:link></h1>
+       <p><b<g:link controller ="landlord" action= "register">New to HappyLandlord? Register here!<br></p>
+    <h1>Register</g:link></h1>
+    </g:else>
+   
+     
+ 
+    
+    
+    
+  </div>
+
+
+  <div id="page-body" role="main">
+
+    <h1>Welcome to HappyLandlord</h1>
+    <p><img src="${resource(dir: 'images', file: 'happy_face.jpg')}" alt="Grails"/></p>
+    
   </div>
 
 
