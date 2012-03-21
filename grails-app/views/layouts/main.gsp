@@ -18,25 +18,51 @@
   <r:layoutResources />
 </head>
 <body>
-  <div id="grailsLogo" role="banner"><a href="http://localhost:8080/HappyL"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
+  <div id="grailsLogo" role="banner"><a href="http://localhost:9090/HappyL"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
 <g:layoutBody/>
-<div class="footer" role="contentinfo">
-<g:link controller ="landlord" action= "aboutus">
-  <p style="
-     text-align: right;  
-     text-decoration:underline;
-     color: white;
-     font-style: bold;
-     font-size: 1.1em;
-     "> About Happy Landlord
+<div class="footer" role="contentinfo" style =" background-color: #007ca2; color: white">
+  <p style="text-align: center;">
+     <g:link controller ="siteinfo" action= "contact"  style="
+
+          text-decoration:underline;
+          font-style: bold;
+          font-size: 1.1em;
+          "> 
+
+    Contact Us      
+
+
+  </g:link> 
+    &nbsp | &nbsp
+  <g:link controller ="siteinfo" action= "aboutus"  style="
+
+          text-decoration:underline;
+          font-style: bold;
+          font-size: 1.1em;
+          "> 
+
+    About Happy Landlord      
+
+
+  </g:link>
+    &nbsp | &nbsp
+  <g:link controller ="siteinfo" action= "privacy"  style="
+
+          text-decoration:underline;
+          font-style: bold;
+          font-size: 1.1em;
+          "> 
+
+Privacy Policy
+
+  </g:link>    
   </p>
-</g:link>
+
 </div>
 <div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 <g:javascript library="application"/>
 <r:layoutResources />
-<div id="notthefooter"></div>
-<div id="footer">
+<div id="copyrights">
 
   <p>Copyright © 2012 Happy Landlord LLC </p>
 

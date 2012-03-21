@@ -148,32 +148,51 @@ margin-top: 0;
     <g:if test="${session.landlord}">
       <p> Welcome ${session.landlord.firstName} </p>
        <h1><g:link controller ="landlord" action= "logout">Logout</g:link></h1>
-       
-      
-
-      <div id="viewProp" role="complementary">
-        <g:link controller="property" action="list">View a Property       
-        </g:link>
-        &nbsp &nbsp </div>
-
-      <div id="viewUnit" role="complementary">
-        <g:link controller="unit" action="list">View a Unit          
-        </g:link>
-        &nbsp &nbsp                              </div>
-
-
-      <div id="viewTenant" role="complementary">
-        <g:link controller="tenant" action="list">View a Tenant</g:link>
-        &nbsp &nbsp </div>
-
-    
-       
+                           
+                                
     </g:if>
     <g:else> 
        <p><br>Have An Account? Login here!<br></p>
-       <h1><g:link controller ="landlord" action= "login">Login</g:link></h1>
-       <p><b<g:link controller ="landlord" action= "register">New to HappyLandlord? Register here!<br></p>
-    <h1>Register</g:link></h1>
+       
+
+       
+        
+      <g:if test="${flash.message}">
+        <div class="message">${flash.message}</div>
+      </g:if>
+      <g:form controller="landlord" action="authenticate" method="post" >
+          <table>
+            <tbody>            
+                               
+              <tr>                  
+                <td>
+                  <label for="userId">User Name:</label> <br>             
+                  <input type="text" id="userId" name="userId"/>
+                </td>
+                                
+              </tr> 
+
+              <tr>                  
+                <td>
+                    <label for="password">Password:</label><br>             
+                  <input type="password" id="password" name="password"/>
+                </td>
+              </tr> 
+            </tbody>
+          </table>
+         <div>
+          <span>
+            <input type="submit" value="Login" />
+          </span>
+        </div>               
+      </g:form>                                
+                               
+                                
+                                
+                                
+                                
+       <p><br>New to HappyLandlord? Register here!<br></p>
+    <h1><g:link controller ="landlord" action= "register">Register</g:link></h1>
     </g:else>
    
      

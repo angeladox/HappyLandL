@@ -40,9 +40,7 @@ class LandlordController {
         }  
     }
     
-    def aboutus = {
-       
-    }
+    def aboutus = {}
     
     def login = {}
   
