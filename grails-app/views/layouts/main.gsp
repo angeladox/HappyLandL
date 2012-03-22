@@ -13,12 +13,82 @@
     <link rel="apple-touch-icon" href="${resource(dir: 'images', file: 'apple-touch-icon.png')}">
     <link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 'apple-touch-icon-retina.png')}">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
-    <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'login.css')}" type="text/css">
   <g:layoutHead/>
   <r:layoutResources />
 </head>
 <body>
   <div id="grailsLogo" role="banner"><a href="http://localhost:9090/HappyL"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
+
+
+
+<div id="login" role="complementary" align="left">
+    <g:if test="${session.landlord}">
+      <p> Welcome ${session.landlord.firstName} </p>
+      
+      <div>
+          <a href="http://localhost:9090/HappyL/property/listprop/${session.landlord.userId}">View Your Property List</a>
+      </p>
+      </div>
+      <div >
+        <p>
+        <g:link controller="property" action="list">Add a Property       
+        </g:link>
+       
+      </p>
+      <p>
+        <g:link controller="unit" action="list">View a Unit          
+        </g:link>
+      </p>                            
+
+
+      <p>
+        <g:link controller="tenant" action="list">View a Tenant</g:link>
+      </p>                 
+  </div>
+      
+      
+      
+      
+      <g:form controller="landlord" action="logout" method="post" >
+        <span>
+            <input type="submit" value="Logout" />
+          </span>
+        
+      </g:form>
+         </g:if>
+    <g:else> 
+       <p><br>Have An Account? Login here!<br></p>
+      <g:if test="${flash.message}">
+        <div class="message">${flash.message}</div>
+      </g:if>
+      <g:form controller="landlord" action="authenticate" method="post" >
+          
+                  <label for="userId">User Name:</label> <br>             
+                  <input type="text" id="userId" name="userId"/>
+                <br><br>
+                    <label for="password">Password:</label><br>             
+                  <input type="password" id="password" name="password"/>
+                  <br><br>
+         <div>
+          <span>
+            <input type="submit" value="Login" />
+          </span>
+        </div>               
+      </g:form>                                                           
+       <p><br>New to HappyLandlord? Register here!<br></p>
+    <h1><g:link controller ="landlord" action= "register">Register</g:link></h1>
+    </g:else>    
+  </div>
+
+
+
+
+
+
+
+
+
 <g:layoutBody/>
 <div class="footer" role="contentinfo" style =" background-color: #007ca2; color: white">
   <p style="text-align: center;">

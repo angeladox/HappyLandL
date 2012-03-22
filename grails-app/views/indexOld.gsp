@@ -201,6 +201,22 @@ margin-top: 0;
     
     
   </div>
+  <div >
+    
+        <g:link controller="property" action="list">View a Property       
+        </g:link>
+       &nbsp &nbsp 
+
+      
+        <g:link controller="unit" action="list">View a Unit          
+        </g:link>
+           &nbsp &nbsp                          
+
+
+      
+        <g:link controller="tenant" action="list">View a Tenant</g:link>
+                             
+  </div>
 
 
   <div id="page-body" role="main">

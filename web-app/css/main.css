@@ -94,6 +94,8 @@ img {
        
 }
 
+
+
 .content {
 }
 
@@ -331,6 +333,7 @@ fieldset.embedded legend {
 }
 
 .message {
+        
 	background: #f3f3ff;
 	border: 1px solid #b2d1ff;
 	color: #006dba;
@@ -360,6 +363,7 @@ fieldset.embedded legend {
 }
 
 .message {
+        width: 150px;
 	background: transparent url(../images/skin/information.png) 0 50% no-repeat;
 	text-indent: 22px;
 }
