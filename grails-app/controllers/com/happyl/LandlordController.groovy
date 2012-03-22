@@ -47,9 +47,16 @@ class LandlordController {
     def authenticate = {
         def landlord = Landlord.findByUserIdAndPassword(params.userId, params.password)
         if(landlord){
-            session.landlord = landlord
+            def  props = Property.getAll()
+           
+            ///def listS = {lid, listp -> listp.findAll{!lid.contains(it)}}
+            
+            //def propList = listS(landlord.id, props)
+            
+            //def facilities = Facility.findAllByNameIlike("%${params.facilitySearch}%")                   
+            session.landlord = landlord           
             flash.message = "Hello ${landlord.firstName}!"
-            redirect(controller:"property", action:"list")      
+            redirect(uri: '/', params: params )      
         }else{
             flash.message = "Sorry, ${params.userId}. Please try again."
             redirect(action:"login")
