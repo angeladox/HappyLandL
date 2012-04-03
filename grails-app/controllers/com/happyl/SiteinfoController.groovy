@@ -1,9 +1,11 @@
 package com.happyl
 
 class SiteinfoController {
-
+    def home = {redirect(uri: "/")}
     def aboutus = {}
-    def contact = {}
+    def contactus = {}
+    
+    
     def privacy = {}  
     
 }

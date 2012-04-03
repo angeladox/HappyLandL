@@ -8,6 +8,6 @@ class PropertyController {
    
     def listprop = {
         def landlord = Landlord.findByUserId(params.id)
-        [ landlord:landlord ]
+        [ landlord:landlord, assetAmt: landlord.asset.size() ]
     }
 }

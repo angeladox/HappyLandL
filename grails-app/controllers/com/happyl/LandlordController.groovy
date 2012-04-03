@@ -56,10 +56,12 @@ class LandlordController {
             //def facilities = Facility.findAllByNameIlike("%${params.facilitySearch}%")                   
             session.landlord = landlord           
             flash.message = "Hello ${landlord.firstName}!"
-            redirect(uri: '/', params: params )      
+            redirect(controller:"property",action:"listprop", params: [id:session.landlord.userId])
+            //redirect(uri:"http://localhost:9090/HappyL/property/listprop/${session.landlord.userId}")
+            //redirect(uri: '/', params: params )      
         }else{
             flash.message = "Sorry, ${params.userId}. Please try again."
-            redirect(action:"login")
+            redirect(uri:"/")
         }
     }
   

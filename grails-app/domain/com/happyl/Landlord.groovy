@@ -27,7 +27,7 @@ class Landlord {
     static hasMany =[asset:Property]
     
     String toString(){
-        "Landlord: ${firstName} ${lastName} (${id})"
+        "${firstName} ${lastName} (${id})"
     }
     
 }
