@@ -1,7 +1,8 @@
 package com.happyl
 
 class Property {
-
+    static searchable = true;
+    
     String address
     String city
     String state
