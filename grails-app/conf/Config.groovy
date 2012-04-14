@@ -103,3 +103,7 @@ grails {
                          'mail.smtp.socketFactory.fallback':'false']
         }
 } 
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.happyl.SecUser'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.happyl.SecUserSecRole'
+grails.plugins.springsecurity.authority.className = 'com.happyl.SecRole'
