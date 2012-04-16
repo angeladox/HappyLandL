@@ -13,7 +13,14 @@ class LandlordController {
         if (!params.register) return
         
         if (params) {
-            def landlord = new Landlord(params) 
+            
+            def landlord = new Landlord(userId: params.userId,
+                                        firstName: params.firstName, 
+                                        lastName: params.lastName,
+                                        email: params.email, 
+                                        phone: params.phone
+                                       )
+                                     
             if (landlord.validate()) {
                 
                 landlord.save()
@@ -42,7 +49,7 @@ class LandlordController {
                                 
                 /////////////////////
                 
-                redirect (action: authenticate, params:params) 
+                redirect (action: authenticate, params: params) 
             }else{
                 flash.message = "Error Registering User"
                 [ landlord: landlord ] 
@@ -58,7 +65,7 @@ class LandlordController {
     def login = {}
   
     def authenticate = {
-        def landlord = Landlord.findByUserIdAndPassword(params.userId, params.password)
+        def landlord = Landlord.findByUserId(params.userId)
         if(landlord){
             def  props = Property.getAll()
            
