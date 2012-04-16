@@ -2,7 +2,8 @@ package com.happyl
 
 class LandlordController {
     def scaffold = true
-    
+    def springSecurityService
+
     def index= {
       
         
@@ -12,7 +13,6 @@ class LandlordController {
         if (!params.register) return
         
         if (params) {
-            ////////////////////    
             def landlord = new Landlord(params) 
             if (landlord.validate()) {
                 
@@ -27,6 +27,20 @@ class LandlordController {
                     ' </td></tr><tr><td> <br><p>Thank you for registering with Happy Landlord! :)<br><br><br> The Happy Landlord Team - ABQ - </p> </td></tr></table> '
                     
                 }
+                ////////////////////
+                def userRole = SecRole.findByAuthority('ROLE_USER') ?: new SecRole(authority: 'ROLE_USER').save(failOnError: true)
+
+                def newUser = new SecUser(
+                    username: params.userId,
+                    password: params.password,
+                    enabled: true).save()
+                
+                
+                if (!newUser.authorities.contains(userRole)) {
+                    SecUserSecRole.create newUser, userRole
+                }
+                                
+                /////////////////////
                 
                 redirect (action: authenticate, params:params) 
             }else{
@@ -34,7 +48,6 @@ class LandlordController {
                 [ landlord: landlord ] 
             }
 
-            /////////////////////    
         }else{
             [landlord: landlord]
         }  
